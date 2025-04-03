@@ -15,6 +15,18 @@ setup = function() {
 
 }
 
+setup function() { size(400, 400);
+background(255, 255, 247);
+for (var i = -120; i < 400; i += 100){ drawUnicorn (100+i, 200);
+drawUnicorn (50+1, 50);}};
+
+//Function Definition
+var drawUnicorn = function(unicornX, unicornY){ translate(unicornX, unicorny);
+scale(0.3); //earone
+stroke (93,26,110);
+fill(244,237,247);
+arc (210,39,60, 100, radians (60), radians(240)); fill(191,55,119);
+arc(205,39,40,90, radians (60), radians(240));
 
 // Arrays!
 
@@ -56,3 +68,5 @@ for(var friendNum = 0; friendNum < myFriends.length; friendNum++)
 draw emojiImage = loadImage("https://i.pinimg.com/736x/01/d8/fc/01d8fcdbb5cfcc20fd5734f5affe62ec.jpg");
 draw = function(){   
 image(emojiImage, 200, 180, 120, 120);
+
+

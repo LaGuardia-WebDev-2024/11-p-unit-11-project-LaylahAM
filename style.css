@@ -45,3 +45,17 @@ h2{
 #end{
   text-align: right;
 }
+//1/3
+<img 
+    src= https://ih1.redbubble.net/image.5161749534.0812/flat,750x,075,f-pad,750x1000,f8f8f8.jpg
+> 
+//2/3
+img { border-radius: 30px;  }
+
+
+//3/3
+.My 
+{ background-color: rgb(255, 78, 78);
+  color: rgb(255, 200, 200);
+}    
+<strong class="my">my </strong>
